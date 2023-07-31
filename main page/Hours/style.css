@@ -69,57 +69,20 @@ button:hover{
     transition: 0.6s;
 }
 
-h1{
+.our-hours{
+    display: flex;
     font-family: 'Playfair Display', serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    border-bottom: solid black;
+    border-bottom-width: 5px;
+    width: 500px;
+    justify-content: center;
+    margin-left: 756px;
 }
 
-p{
-    font-family: 'Playfair Display', serif;
+.days{
     text-align: center;
-    padding: 20px;
+    margin-right: 101px;
+    padding: 30px
 }
-
-.grid-cakes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 10%;
-    padding: 0px;
-}
-
-
-img{
-    width: 340px;
-    margin-top: 30px;
-    padding: 0px;
-    transition: 1s;
-    border-radius: 15px;
-}
-
-img:hover{
-    transition: 1s;
-    padding: 20px 20px;
-    margin: 10px;
-    box-shadow: #0f0f0f;
-    opacity: 0.8;
-    border-radius: 15px;
-}
-
-h3{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 15ex;
-    margin-left: 20px;
-    color: whitesmoke;
-    background-color: #0f0f0f;
-}
-
-.gg-shopping-cart{
-    display: inline-block;
-    margin-top: 3px;
-    margin: 2px;
-    height: 20px;
-    font-size: 10px;
-    padding: 10px 10px;
-}
-
